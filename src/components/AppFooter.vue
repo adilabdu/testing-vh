@@ -15,7 +15,7 @@ const active = computed(() => route.name)
 
 <template>
 
-  <div class="w-full flex items-center justify-center h-fit fixed bottom-0">
+  <div class="w-full flex items-center justify-center h-fit">
     <ul class="grid p-1 m-2 grid-cols-3 place-items-center relative w-96 h-12 bg-gray-200 rounded-[10px]">
       <li
         v-for="(route, r) in routes"

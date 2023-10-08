@@ -1,8 +1,12 @@
 <script setup>
+import AppFooter from "../components/AppFooter.vue";
 </script>
 
 <template>
 
-  <p>VH</p>
+  <div class="w-full h-screen flex flex-col">
+    <main class="grow"></main>
+    <AppFooter />
+  </div>
 
 </template>
